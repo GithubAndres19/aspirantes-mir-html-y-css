@@ -1,4 +1,4 @@
-.Login-Box {
+.login-box {
     width: 300px;
     padding: 20px;
     border-radius: 20px;
@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-.Login-Box label {
+.login-box label {
     
     width: 93%;
     padding: 7px;
@@ -17,14 +17,14 @@
     display: block;
 }
 
-.Login-Box input {
+.login-box input {
 
     padding: 7px;
     font-weight: bold;
 
 }
 
-.Login-Box select {
+.login-box select {
 
     width: 99%;
     padding: 7px;
@@ -47,21 +47,21 @@
     width: 93%;
 }
 
-@media (min-width: 499px){
+@media (min-width: 500px){
 
-    .Login-Box{
-        width: 88%;
+    .login-box{
+        width: 300px;
     }
     
 }
 
-.Login-Box select {
-    width: 98%;
+@media (max-width: 499px){
+
+    .login-box{
+        width: 88%;
+    }
 }
 
-@media (min-width: 500px){
-
-    .Login-Box{
-        width: 300px;
-    }
+.login-box select {
+    width: 98%;
 }
