@@ -9,20 +9,6 @@
     margin: 0 auto;
 }
 
-@media (min-width: 100px){
-
-    .Login-Box{
-        width: 100px;
-    }
-    
-}
-
-@media (min-width: 500px){
-
-    .Login-Box{
-        width: 300px;
-    }
-}
 .Login-Box label {
     
     width: 93%;
@@ -44,6 +30,7 @@
     padding: 7px;
     font-weight: bold;
     display: block;
+    margin-bottom: 12px;
 }
 
 .btn {
@@ -58,4 +45,23 @@
 
 .password {
     width: 93%;
+}
+
+@media (min-width: 499px){
+
+    .Login-Box{
+        width: 88%;
+    }
+    
+}
+
+.Login-Box select {
+    width: 98%;
+}
+
+@media (min-width: 500px){
+
+    .Login-Box{
+        width: 300px;
+    }
 }
